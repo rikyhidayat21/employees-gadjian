@@ -1,0 +1,28 @@
+{
+  "name": "employees-gadjian",
+  "version": "1.0.0",
+  "description": "simple crud using node js, express js, and postgreSQL as database.",
+  "main": "app.js",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "express": "^4.17.1",
+    "pg": "^8.5.1",
+    "sequelize": "^6.3.5",
+    "sequelize-cli": "^6.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rikyhidayat21/employees-gadjian.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rikyhidayat21/employees-gadjian/issues"
+  },
+  "homepage": "https://github.com/rikyhidayat21/employees-gadjian#readme"
+}
