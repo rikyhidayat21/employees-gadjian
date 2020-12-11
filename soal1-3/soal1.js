@@ -4,12 +4,12 @@
  *
  */
 
-function reverseWord(str) {
+function reverse(character) {
   let temp = "";
-  for (let i = str.length - 1; i >= 0; i--) {
-    temp += str[i];
+  for (let i = character.length - 1; i >= 0; i--) {
+    temp += character[i];
   }
   return temp;
 }
 
-console.log(reverseWord("backend"));
+console.log(reverse("backend"));
