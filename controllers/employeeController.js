@@ -82,7 +82,7 @@ class EmployeeController {
       .then((employee) => {
         if (!employee) throw { msg: "employee not found!", statusCode: 404 };
         employee.destroy();
-        res.status(200).json({ msg: "success deleted employee" });
+        res.status(204).json({ msg: "success deleted employee" });
       })
       .catch((err) => {
         console.log(err, "<=== error delete employee at product");
