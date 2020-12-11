@@ -12,4 +12,5 @@ function reverse(character) {
   return temp;
 }
 
-console.log(reverse("backend"));
+// console.log(reverse("backend"));
+module.exports = reverse;

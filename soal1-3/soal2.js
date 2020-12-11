@@ -4,7 +4,7 @@
  *
  */
 
-function fibonnaci(n) {
+function fibonacci(n) {
   let arr = [0];
   let currentValue = 1;
   let previousValue = 0;
@@ -25,4 +25,5 @@ function fibonnaci(n) {
   return result;
 }
 
-console.log(fibonnaci(13));
+// console.log(fibonacci(13));
+module.exports = fibonacci;
